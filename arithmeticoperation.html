@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="mul"></p>
+    <p id="div"></p>
+    <p id="inc"></p>
+    <p id="dec"></p>
+    <script>
+        var a = 10 ;
+        var b = 5 ;
+        var add=a+b;
+        document.getElementById("add").innerHTML=add;
+
+        var sub=a-b;
+        document.getElementById("sub").innerHTML=sub;
+        
+        var mul=a*b;
+        document.getElementById("mul").innerHTML=mul;
+
+        var div=a/b;
+        document.getElementById("div").innerHTML=div;
+
+        var inc=++a;
+        document.getElementById("inc").innerHTML=inc;
+
+        var dec=--b;
+        document.getElementById("dec").innerHTML=dec;
+        
+    </script>
+</body>
+</html>
